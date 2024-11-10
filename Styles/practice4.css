@@ -1,0 +1,18 @@
+.continer{
+    display: flex;
+    gap: 16px   ;
+    margin-top: 16px;
+    border: 2px solid blue;
+}
+.imag-continer img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:576px) {
+    .continer{
+        display: flex;
+        flex-direction: column;
+        border: 0px;
+        gap: 16px   ;
+    }
+}
